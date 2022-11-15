@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <br>
+        <div class="container-fluid">
+            <div class="nav navbar-center">
+                <h3 class="link-light" href="#">Library Management System</h3>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav navbar-right" id="navbarSupportedContent">
+               
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+            <br>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle  btn btn-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Title
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="title.html">Operating System</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Database Management system</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Machine Learning</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">Published Date</a></li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle   btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Author
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="author.html">Ian Sommerville</a></li>
+                      <li><a class="dropdown-item disabled" href="">Sachin Kumar</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">Published Date</a></li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle   btn btn-info" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Subject
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item disabled" href="#">Operating System</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Database Management system</a></li>
+                      <li><a class="dropdown-item" href="subject.html">Machine Learning</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Data Science</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4 mb-4">
+                <h5>Count of Books: 1500</h5>
+            </div>
+        </div>
+        
+        
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book1.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Compiler design</h5>
+
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: Sachin Kumar</li>
+                            <li class="list-group-item">Subject: Compiler design</li>
+                            <li class="list-group-item">Published Date: 12-11-2000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book2.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Engineering</h5>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: Ian Sommerville</li>
+                            <li class="list-group-item">Subject: Software Engineering</li>
+                            <li class="list-group-item">Published Date: 02-11-1998</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book3.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Structures and Algorithms</h5>
+                           
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: Adrian Mejia</li>
+                            <li class="list-group-item">Subject: DSA</li>
+                            <li class="list-group-item">Published Date: 09-10-2000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book4.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Networks</h5>
+                           
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: Lorry L Peterson</li>
+                            <li class="list-group-item">Subject: CN</li>
+                            <li class="list-group-item">Published Date: 12-11-1998</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book5.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Simplified Approach to DBMS</h5>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: James Doson</li>
+                            <li class="list-group-item">Subject: DBMS</li>
+                            <li class="list-group-item">Published Date: 12-07-2000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/book6.jpeg" class="card-img-top" alt="..." width="100px" height="250px">
+                        <div class="card-body">
+                            <h5 class="card-title">Operating System Concepts</h5>
+                           
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Author: Abraham Silberscatz</li>
+                            <li class="list-group-item">Subject: Operating System</li>
+                            <li class="list-group-item">Published Date: 12-11-1990</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <nav aria-label="Page navigation example" class="navbar-nav mr-auto">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+    </div>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+
+    <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.2);">
+  <br>
+      <div class="row">
+       
+        <div class="col-md-10 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© Sachin Kumar Sharma:
+      <a class="text-dark" target="_blank" href="https://github.com/Sachin6464">Github</a>
+    </div>
+  
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
